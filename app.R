@@ -93,7 +93,7 @@ ui <- fluidPage(
                      h3("Select chart types to plot"),
                      p("Check the statistical chart type you wish to plot. Uncheck if you wish to hide an item."),
                      h3("Application Source Code"),
-                     p("")
+                     helpText(a("app.R on GitHub",href="https://github.com/bjoernsteffens/CreatingDataProductsShiny/blob/master/app.R",target="_blank"))
             )
             
         )
